@@ -3,7 +3,7 @@
 - [English](/docs/README.en.md)
 
 # PumpkinDesigner
-轻量级表格数据编辑器，作为 PumpkinDev（[www.pumpkindev.com](www.pumpkindev.com)）核心前端编辑组件，专注于**数据录入界面开发**与**打印模板设计**场景，兼顾易用性与定制化能力。
+纯js轻量级表格数据编辑器，作为 PumpkinDev（[www.pumpkindev.com](www.pumpkindev.com)）核心前端编辑组件，专注于**数据录入界面开发**与**打印模板设计**场景，兼顾易用性与定制化能力。
 
 > ⚠️ 注意：本组件聚焦轻量定制化场景，若需完全复刻 Excel 全功能，该项目可能无法满足你的需求。
 
