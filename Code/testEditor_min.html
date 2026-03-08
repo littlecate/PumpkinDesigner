@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="dist/PumpkinDesigner.js.min.js"></script>
+    <script type="text/javascript" src="testData/test1.min.js"></script>
+    <script type="text/javascript" src="testData/testCalculateInfo.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+</head>
+<body>
+    <div id="container" class="shadow" style="width: 850px; height:600px; position: relative; left: 50%; margin-left: -425px; margin-top: 10px; background-color: white;">
+        <div id="viewContent" class="section-to-print" style="width: 850px; height:600px; position: relative; display: block; margin: 10px 0px;overflow:auto;">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var myTestData1 = { "sheets": [{ "name": "sheet1", "content": myTestData }] };
+    var config = {
+        id: "myCellDesigner1", instanceName: "myCell1", workbook: myTestData1, parentEl: document.getElementById("viewContent"), dwEdit: null,
+        pdfGenUrl: "http://localhost:6011/GenPdf.aspx",
+        saveToUrl: "http://localhost:6011/SaveData.aspx",
+        isDisplayToolbar: true,
+        isDisplayLabel: true
+    };
+    var myCell1 = PumpkinDesigner(config);
+    myCell1.DoJob();
+    //var operCell = myCell1.GetOperCell();
+    //operCell.InsertRow(5, 20, 0);
+</script>
