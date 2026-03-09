@@ -4,7 +4,7 @@
 
 
 # PumpkinDesigner
-A pure js lightweight table data editor that serves as a core front-end editing component for **PumpkinDev** ([www.pumpkindev.com](www.pumpkindev.com)). It focuses on **data entry interface development** and **print template design**, balancing ease of use and powerful customization.
+A Excel-like pure js lightweight table data editor that serves as a core front-end editing component for **PumpkinDev** ([www.pumpkindev.com](www.pumpkindev.com)). It focuses on **data entry interface development** and **print template design**, balancing ease of use and powerful customization.
 
 > ⚠️ Note: This component is designed for lightweight and customizable scenarios. If you need a full-featured Excel clone, this project may not meet your needs.
 
